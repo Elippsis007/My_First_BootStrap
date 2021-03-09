@@ -7,48 +7,59 @@
     <title>Whiskey Drop | Taste a new whiskey every month</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+   
 </head>
 
 <body>
         <nav class="navbar navbar-light bg-light navbar-expand-sm">
-            <a href="/" class="navbar-brand">Whiskey Drop</a>
+            <a href="/" class="navbar-brand">Whiskey Drop <i class="fas fa-tint"></i></a>
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
                 <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          
           Whiskeys
-                </a>
+        </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">Irish</a>
                         <a class="dropdown-item" href="#">Scotch</a>
                         <a class="dropdown-item" href="#">Japanese</a>
                         <a class="dropdown-item" href="#">American</a>
                     </div>
-
                 </li>
+
                 <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/Login">Sign In / Sign Up</a></li>
             </ul>
-            </div>
+        </div>
 
-            <div class="d-none d-md-block">
+        <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2"><i>Great Whiskey delivered to your door!</i></p>
             <a href="/login">Sign In / Sign Up</a>
-            </div>
-        </nav>
-    <article class="container mt-3">
-        <div class="row d-none d-sm-block">
-            <div class="col-12">
-                <div class="alert alert-warning">
+        </div>
+    </nav>
+        <div class="container alert-container">
+            <div class="row d-none d-sm-block">
+                <div class="col-12">
+                    <div class="alert alert-warning">
                     <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="">See here for details!</a>
                 </div>
             </div>
         </div>
+    
+        <div class="container callout-container">
         <!-- Callout -->
     <div class="row">
      <div class="col-12">   
@@ -58,51 +69,98 @@
                 <s class="d-none d-sm-inline">€19.99</s> 
                 <span class="d-inline d-sm-none"><br></span>
                 <strong><mark>First one is free!</mark></strong></p>
-            <button class="btn btn-lg btn-success">Sign Up!</button>
+            <button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
             <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
         </section>
+        </div>
     </div>
-</div>
-        <!-- /.callout -->
-    <hr>
+</div>        
+<!-- /.callout -->
+        
+   
 
- Monthly Favorites
+    <section class="monthly favorites">
+            <div class="row">
+                <div class="col-12 my-5">
+ <h2 class="text-uppercase">Monthly Favorites:</h2>
+                    
+        <hr>
         <section>
             <table class="table table-dark">
   <thead>
     <tr>
-      <th scope="col">World Rank</th>
+      <th scope="col">World Rank <i class="fas fa-trophy" style=color:#ffd700;></i></th>
       <th scope="col">Name</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>UNCLE NEAREST PREMIUM WHISKEY</td>
+      <td><i class="fas fa-star" style=color:#ffd700;></i> UNCLE NEAREST PREMIUM WHISKEY</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>WESTFALIAN PEATED 6 YO SINGLE MALT WHISKY</td>
+      <td><i class="fas fa-star" style=color:#c0c0c0;></i> WESTFALIAN PEATED 6 YO SINGLE MALT WHISKY</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td>GLORY LEADING 1972 45 YO BLENDED SCOTCH WHISKY</td>
+      <td><i class="fas fa-star" style=color:#cd7f32;></i> GLORY LEADING 1972 45 YO BLENDED SCOTCH WHISKY</td>
     </tr>
     <tr>
       <th scope="row">4</th>
-      <td>BUNNAHABHAIN 25 YO SINGLE MALT SCOTCH WHISKY</td>
+      <td><i class="fas fa-heart" style=color:#ff0000;></i> BUNNAHABHAIN 25 YO SINGLE MALT SCOTCH WHISKY</td>
     </tr>
     <tr>
       <th scope="row">5</th>
-      <td>GLENFIDDICH 40 YO SINGLE MALT SCOTCH WHISKY</td>
+      <td><i class="fas fa-thumbs-up"></i> GLENFIDDICH 40 YO SINGLE MALT SCOTCH WHISKY</td>
+
     </tr>
   </tbody>
 </table>
         </section>
-     
         <hr>
 
-        <!-- Quotes -->
+        <section class="honorable mentions">
+            <div class="row">
+                <div class="col-12 my-5">
+ <h2 class="text-uppercase">Honorable Mentions:</h2>
+ <hr>
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+<div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2F1537209820%2Fconor-mcgregor-whiskey-2-FT-BLOG0918.jpg&f=1&nofb=1" class="d-block w-100" alt="Proper 12 Whiskey Bottle">
+        </div>
+
+        <div class="carousel-item">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-t6dK6OAHMtc%2FWUNPqHU_0xI%2FAAAAAAAEeiU%2FCYAXgMNoXrQIkfVcU1QKLzSAgWBVdcjMACLcBGAs%2Fs1600%2FJameson%252BWhiskey%252B%2525281%252529.jpg&f=1&nofb=1" class="d-block w-100" alt="Jameson Irish Whiskey Bottle">
+        </div>
+
+        <div class="carousel-item">
+        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Furbaneye.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2016%2F09%2FJack-Daniels.png&f=1&nofb=1" class="d-block w-100" alt="Jack Daniels Bottle">
+        </div>
+
+        <div class="carousel-item">
+        <img src="https://s2.best-wallpaper.net/wallpaper/1600x1200/1805/Alcohol-drinks-whiskey-bottle-cup_1600x1200.jpg" class="d-block w-100" alt="Bushmills Whiskey Bottle">
+        </div>
+
+</div>
+        
+    
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+        </a>
+</div>
+     
+       <!-- Quotes -->
+        <div class="container quotes-container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -114,12 +172,12 @@
                 <div class="col-12 col-md-6">
             <div class="media">
                 <div class="d-none d-sm-block">
-                        <img src="images/guy-image.png" class="rounded-circle mr-3" height=100 width=100>
+                        <img src="data:image/jpeg;base64,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" class="rounded-circle mr-3" height=100 width=100>
                 </div>
                 <div class="media-body">
                     <blockquote class="blockquote">
                     <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                    <p>- Jane Doe</p>
+                    <p>- John Fitzgerald</p>
                </blockquote>
                 </div>
             </div> 
@@ -128,12 +186,12 @@
             <div class="col-12 col-md-6">
                 <div class="media">
                     <div class="d-none d-sm-block">
-                <img src="images/girl-image.png" class="rounded-circle mr-3" height=100 width=100>
+                <img src="data:image/jpeg;base64,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" class="rounded-circle mr-3" height=100 width=100>
                     </div>
                 <div class="media-body">
                 <blockquote class="blockquote">
                     <p>I haven't been sober for months!</p>
-                    <p>- Jane Doe</p>
+                    <p>- Tata Hernandes</p>
               </blockquote>
                 </div>
                 </div>  
@@ -142,9 +200,10 @@
         </section>
             
         <!-- /.quotes -->
-        <hr>
+        </div>
 
         <!-- Features -->
+        <div class="features-container">
         <section class="features">
         <div class="row">
             <div class="col-12 my-5">
@@ -183,7 +242,42 @@
     </div>          
     </section>
     <!-- /.features -->
-    </article>
+    </div>
+    
+
+     <!-- MODAL -->
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Sign Up To Whiskey Drop! <i class="fas fa-glass-whiskey"></i>
+
+</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="repeatPassword">Repeat Password</label>
+    <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+  </div>
+   <button type="submit" class="btn btn-success">Submit</button>
+</form>
+      </div>
+      </div>
+  </div>
+</div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>  
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
